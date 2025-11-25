@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ```bash
 !python src/train.py \
-  --model_name distilbert-base-uncased \
+  --model_name prajjwal1/bert-tiny\
   --train data/train.jsonl \
   --dev data/dev.jsonl \
   --batch_size 16 \
